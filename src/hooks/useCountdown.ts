@@ -7,7 +7,7 @@ export default function useCountdown(date: Date) {
     days: '00',
     hours: '00',
     minutes: '00',
-    seconds: '00'
+    seconds: '00',
   });
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export default function useCountdown(date: Date) {
       days: getDays.toString() || '000',
       hours: getHours || '000',
       minutes: getMinutes || '000',
-      seconds: getSeconds || '000'
+      seconds: getSeconds || '000',
     });
   };
 
